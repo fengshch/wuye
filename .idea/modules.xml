@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/wuye.iml" filepath="$PROJECT_DIR$/wuye.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wuye-common/wuye-common.iml" filepath="$PROJECT_DIR$/wuye-common/wuye-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wuye-jfx/wuye-jfx.iml" filepath="$PROJECT_DIR$/wuye-jfx/wuye-jfx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wuye-server/wuye-server.iml" filepath="$PROJECT_DIR$/wuye-server/wuye-server.iml" />
+    </modules>
+  </component>
+</project>

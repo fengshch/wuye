@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="资源管理">
+            <items>
+              <MenuItem fx:id="mniDyqy" mnemonicParsing="false" onAction="#showDyqy" text="资源结构" />
+                  <MenuItem fx:id="mniWyzy" mnemonicParsing="false" onAction="#showWyzy" text="资源档案" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="客户管理">
+              <items>
+                <MenuItem fx:id="mniFkgx" mnemonicParsing="false" onAction="#showFkgx" text="房客关系" />
+              </items>
+            </Menu>
+          <Menu mnemonicParsing="false" text="收费管理">
+            <items>
+              <MenuItem fx:id="mniSfxm" mnemonicParsing="false" onAction="#showSfxm" text="收费项目和收费标准" />
+                  <MenuItem fx:id="mniBzxy" mnemonicParsing="false" onAction="#showBzxy" text="标准选用" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="机构和人员">
+              <items>
+                <MenuItem fx:id="mniZzjg" mnemonicParsing="false" onAction="#showZzjg" text="组织机构" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="统计查询">
+              <items>
+                <MenuItem fx:id="minReport" mnemonicParsing="false" onAction="#showReport" text="报表测试" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="系统管理">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+              </items>
+            </Menu>
+          <Menu mnemonicParsing="false" text="帮助">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+   <center>
+      <TabPane fx:id="mainTabPane" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="ALL_TABS" BorderPane.alignment="CENTER">
+        <tabs>
+          <Tab closable="false" text="主    页" />
+        </tabs>
+      </TabPane>
+   </center>
+</BorderPane>
